@@ -1,0 +1,511 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1661008024955700, "dur": 5021349, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008024956256, "dur": 10475, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008024966735, "dur": 62161, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008025028897, "dur": 440351, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008025469251, "dur": 4498367, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008029967620, "dur": 9428, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008029978012, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1661008025227898, "dur": 211888, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025229626, "dur": 75506, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025405102, "dur": 9940, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025415048, "dur": 24720, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025416995, "dur": 21524, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025451123, "dur": 3199, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1661008025449110, "dur": 5262, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008029978220, "dur": 566, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661008025535360, "dur":2769, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008025538139, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661008025538247, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661008025538276, "dur":337, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661008025538663, "dur":1224, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008025539887, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029934887, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935037, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935061, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935066, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935082, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935086, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935101, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935105, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935121, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935145, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029935150, "dur":3887, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661008025539408, "dur":495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025539907, "dur":10134, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025550067, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661008025550829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025570387, "dur":22305, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661008025592697, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661008025592832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025593396, "dur":7900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1661008025601300, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661008025601491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025602135, "dur":21642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1661008025623863, "dur":31863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008025655733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025656124, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008025658171, "dur":134921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008025793100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008025902006, "dur":106132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026008219, "dur":61273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026069503, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026069535, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026076246, "dur":58378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026134632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026134645, "dur":15633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026150369, "dur":36380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026186756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026186768, "dur":17689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026205014, "dur":104007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026309028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026309042, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026311787, "dur":215729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026527523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026527536, "dur":18109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026545735, "dur":31005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026576747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026576760, "dur":15072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026591911, "dur":67621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026659539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026659552, "dur":32800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026692433, "dur":45018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026737460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026737474, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026739803, "dur":68331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026808141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026808154, "dur":43550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026851801, "dur":51525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026903334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008026903379, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008026905360, "dur":98432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027003800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027003814, "dur":20912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027024810, "dur":50901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027075718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027075730, "dur":16262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027092070, "dur":96123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027188200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027188214, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027191973, "dur":209175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027401155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027401169, "dur":9894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027411144, "dur":48218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027459370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027459384, "dur":17436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027476904, "dur":182940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027659852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008027659865, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008027665210, "dur":368930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028034150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028034167, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028036639, "dur":27987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028064634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028064647, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028066886, "dur":336737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028403632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028403648, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028406047, "dur":329893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028735948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028735962, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028738821, "dur":186704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028925533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028925546, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028928894, "dur":61171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028990072, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008028990085, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008028991774, "dur":258747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029250529, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008029250576, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029253436, "dur":68719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029322162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008029322176, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029324362, "dur":602846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029927215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661008029927227, "dur":7536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661008029934840, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1661008029934846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025539470, "dur":444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025539917, "dur":10573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025550491, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025550806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025555085, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025559821, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025560140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025560153, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025562757, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025563121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025563254, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025565062, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661008025565173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025565184, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1661008025567728, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1661008025567827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025567879, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1661008025570953, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025571058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025571074, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1661008025572805, "dur":1202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008025574018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025574411, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008025576659, "dur":179209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008025755875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008025755886, "dur":274314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026030276, "dur":29843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026060126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026060140, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026061805, "dur":65945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026127759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026127806, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026129790, "dur":56104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026185902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026185916, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026191992, "dur":51776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026243776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026243789, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026249240, "dur":31634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026280882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026280894, "dur":8437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026289406, "dur":64499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026353911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026353955, "dur":34517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026388560, "dur":58968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026447535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026447548, "dur":4172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026451802, "dur":140264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026592072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026592110, "dur":12099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026604299, "dur":46541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026650848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026650861, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026653214, "dur":35653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026688875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026688888, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026692375, "dur":41903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026734285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026734299, "dur":36852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026771251, "dur":27956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026799215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026799228, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026800981, "dur":83991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026884979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026884992, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026886871, "dur":41530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026928408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008026928421, "dur":32935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008026961449, "dur":48772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027010229, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027010243, "dur":14202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027024530, "dur":89650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027114187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027114200, "dur":60079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027174359, "dur":37176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027211543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027211556, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027214491, "dur":35839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027250338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027250351, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027256215, "dur":70402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027326625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027326639, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027333799, "dur":69494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027403301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027403315, "dur":83874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027487272, "dur":232455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027719734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027719748, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027722646, "dur":29134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027751790, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027751905, "dur":56374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027808358, "dur":82051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027890416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027890430, "dur":9155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027899673, "dur":26094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027925804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008027925819, "dur":9195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008027935114, "dur":100339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028035460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008028035473, "dur":41942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028077503, "dur":309787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028387297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008028387311, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028389346, "dur":378608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028767962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008028767975, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028771646, "dur":48838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028820523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008028820537, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008028822257, "dur":379517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029201781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008029201794, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029206996, "dur":231605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029438609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008029438621, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029440818, "dur":376603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029817459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661008029817472, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661008029819404, "dur":115463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025539525, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025539931, "dur":10134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025550070, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1661008025550589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025554988, "dur":4550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1661008025559645, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1661008025559753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025560088, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1661008025561946, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661008025562077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025562959, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1661008025564581, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1661008025564920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025564937, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1661008025567282, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1661008025567576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025567683, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1661008025569649, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661008025569746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025569760, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661008025571663, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1661008025571752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025571763, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1661008025574589, "dur":13135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008025587732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008025604909, "dur":7957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008025612976, "dur":391990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026004977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026004993, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026008555, "dur":58206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026066769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026066782, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026068750, "dur":67208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026135965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026135978, "dur":14183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026150238, "dur":36157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026186401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026186412, "dur":5779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026192272, "dur":97159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026289436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026289449, "dur":63930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026353470, "dur":271612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026625090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026625103, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026629583, "dur":51836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026681427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026681472, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026683264, "dur":62415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026745687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026745701, "dur":24754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026770544, "dur":74930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026845482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026845511, "dur":30676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026876265, "dur":63738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026940011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008026940024, "dur":22635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008026962735, "dur":47684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027010424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027010435, "dur":91762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027102285, "dur":71778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027174070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027174084, "dur":40833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027214996, "dur":35833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027250836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027250848, "dur":5070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027256017, "dur":72043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027328103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027328116, "dur":23902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027352094, "dur":53078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027405179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027405192, "dur":14046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027419320, "dur":106283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027525610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027525624, "dur":36969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027562668, "dur":176481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027739157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027739170, "dur":13241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027752530, "dur":76080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027828617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027828630, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027834216, "dur":83266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027917490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008027917502, "dur":73710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008027991289, "dur":53673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028044969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008028044982, "dur":33042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028078101, "dur":646048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028724172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008028724186, "dur":4261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028728519, "dur":59275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028787802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008028787814, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008028792728, "dur":422647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029215381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008029215394, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029220817, "dur":157099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029377923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008029377936, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029380333, "dur":445641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029825985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661008029826001, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661008029828242, "dur":106627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025539581, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025540149, "dur":9924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025550076, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1661008025550211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025556897, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1661008025561063, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661008025561153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025561164, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661008025563223, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661008025563313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025563329, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661008025565149, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1661008025565241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025565889, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1661008025567799, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1661008025568118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025568129, "dur":20019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1661008025588234, "dur":2096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661008025590366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025590377, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661008025594298, "dur":238464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661008025832769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008025832779, "dur":173688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework.exe" }}
+,{ "pid":12345, "tid":4, "ts":1661008026006556, "dur":60956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026067776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026067790, "dur":3672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026071541, "dur":176162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026247710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026247725, "dur":29799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026277605, "dur":50891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026328504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026328517, "dur":26955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026355554, "dur":30406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026385967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026385979, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026388712, "dur":61482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026450201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026450215, "dur":31327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026481632, "dur":64493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026546132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026546145, "dur":29647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026575877, "dur":95334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026671218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026671231, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026674933, "dur":57259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026732200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026732214, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026735541, "dur":69819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026805367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026805380, "dur":46104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026851578, "dur":72188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026923774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008026923787, "dur":10998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008026934869, "dur":168029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027102905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027102919, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027106296, "dur":45865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027152168, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027152181, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027155779, "dur":48646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027204463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027204478, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027206576, "dur":34786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027241369, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027241383, "dur":60262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027301729, "dur":32238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027333972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027333990, "dur":6618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027340691, "dur":222822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027563520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027563685, "dur":50434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027614199, "dur":154076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027768313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027768327, "dur":6290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027774695, "dur":51756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027826458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027826472, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027832324, "dur":50918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027883261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027883275, "dur":41772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027925161, "dur":59589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027984758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008027984771, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008027989007, "dur":39765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028028780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028028794, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028030602, "dur":63257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028093867, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028093880, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028096060, "dur":122289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028218356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028218370, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028220080, "dur":274816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028494904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028494917, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028498563, "dur":120697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028619268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028619280, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028621382, "dur":165579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028786968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008028786980, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008028788897, "dur":352699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029141604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029141618, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029143930, "dur":271185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029415123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029415135, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029419183, "dur":143657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029562847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029562860, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029564938, "dur":124020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029688965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029688978, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661008029691038, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029691255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029693185, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029694784, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1661008029694868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029694982, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1661008029696886, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029696964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029696974, "dur":40593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029737657, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029737732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029737742, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029741322, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029741598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029741624, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029743465, "dur":7762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029751235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029751247, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1661008029752959, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029753139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029753151, "dur":5294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029758527, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029758608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029758618, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029761866, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029761942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029761952, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661008029763610, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1661008029763684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029763694, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1661008029765139, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029765216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029765227, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661008029767110, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1661008029767184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029767194, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1661008029769250, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1661008029769460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661008029769471, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mykot/Desktop/ErdemOyunSetup/MyFirstUnityHomework_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1661008029771144, "dur":163740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661008029942629, "dur":4150, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1661008029978944, "dur": 1625, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1661008029977986, "dur": 2637, "ph": "X", "name": "Write chrome-trace events", "args": {} },
