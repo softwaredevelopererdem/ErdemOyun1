@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateObstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private float speed = 60;
     void Start()
     {
         
@@ -13,6 +13,6 @@ public class RotateObstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 60*Time.deltaTime, 0);
+        transform.Rotate(0, speed*Time.deltaTime, 0);
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Detector
   - Line
   - Wheel
+  - Laser
   layers:
   - Default
   - TransparentFX

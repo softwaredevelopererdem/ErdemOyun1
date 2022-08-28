@@ -14,6 +14,7 @@ public class LineFirst : MonoBehaviour
 
     private bool isPermission = true;
 
+   [SerializeField] private Vector3 lineOffset = Vector3.zero;
     void Start()
     {
         lr = GetComponent<LineRenderer>();
@@ -29,8 +30,8 @@ public class LineFirst : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lr.SetPosition(0, firstBox.transform.position);
-        lr.SetPosition(1, secondBox.transform.position);
+        lr.SetPosition(0, firstBox.transform.position+lineOffset);
+        lr.SetPosition(1, secondBox.transform.position+lineOffset);
 
         //capsule.transform.position = transform.position;
 

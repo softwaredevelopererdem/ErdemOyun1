@@ -5,9 +5,9 @@ using UnityEngine;
 public class MiddleBot2 : MonoBehaviour
 {
     private float firstX = 0;
-    private float firstZ = 0;
+   
     private float lastX = 0;
-    private float lastZ = 0;
+
     private float differencesFirstLastX = 0;
   
     void Start()
