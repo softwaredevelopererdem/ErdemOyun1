@@ -31,7 +31,7 @@ public class Player1 : MonoBehaviour
     private float lastZ = 0;
     private float differencesFirstLastX = 0;
     private float differencesFirstLastZ = 0;
-    private bool isNearLaser = false;
+    private bool isNotMove = false;
     void Start()
     {
 
@@ -80,24 +80,24 @@ public class Player1 : MonoBehaviour
         differencesFirstLastZ = lastZ - firstZ;
         firstZ = transform.position.z;
 
-
         if (!cc.isGrounded)
         {
-            animator.SetFloat("SagSola",0);
-            animator.SetFloat("IleriGeri",0);
-            
+            animator.SetFloat("x", 0);
+            animator.SetFloat("y", 0);
         }
-
-       
-        if (cc.isGrounded && isNearLaser == false)
+        if (cc.isGrounded && isNotMove == false)
         {
-            animator.SetFloat("SagSola",0);
-            animator.SetFloat("IleriGeri",1);
+            animator.SetFloat("x", 0);
+            animator.SetFloat("y", 1);
         }
-         
-      
 
-      
+
+
+
+
+
+
+
 
     }
     private void OnTriggerEnter(Collider other)
@@ -144,18 +144,17 @@ public class Player1 : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        animator.SetFloat("SagSola", 0);
-        animator.SetFloat("IleriGeri", 0);
+        
         if (hit.gameObject.tag == "Laser")
-        {   
-            isNearLaser = true;
+        {
+            animator.SetFloat("x", 0);
+            animator.SetFloat("y", 0);
+            isNotMove = true;
             if (cc.isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
                 hit.gameObject.GetComponent<Collider>().enabled=false;
-                falingDric.y += Mathf.Sqrt(0.01f * -3.0f * Physics.gravity.y);  
-                 isNearLaser=false;
-               
-
+                falingDric.y += Mathf.Sqrt(0.01f * -3.0f * Physics.gravity.y);
+                isNotMove = false;
             }
             
            

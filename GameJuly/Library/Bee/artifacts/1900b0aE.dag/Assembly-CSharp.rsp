@@ -385,6 +385,7 @@
 "Assets/Scripts/Obstacle1.cs"
 "Assets/Scripts/Obstacle2DownBody.cs"
 "Assets/Scripts/Player1.cs"
+"Assets/Scripts/Player2.cs"
 "Assets/Scripts/RightLeftObstacle.cs"
 "Assets/Scripts/RotateObstacle.cs"
 "Assets/Scripts/RotateOfWheel.cs"

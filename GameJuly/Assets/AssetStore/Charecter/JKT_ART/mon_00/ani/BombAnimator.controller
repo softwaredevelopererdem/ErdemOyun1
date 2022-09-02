@@ -9,7 +9,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 0fa48e07fc94a4246b4dfa5e4f28ff26, type: 2}
+    m_Motion: {fileID: 7400000, guid: 1aaa0bb01122fc44fbf8b5763941e5d6, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -17,15 +17,15 @@ BlendTree:
     m_DirectBlendParameter: SagSola
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f51b126982b87864c9917d3fe266656c, type: 2}
+    m_Motion: {fileID: 7400000, guid: fc96bbfdf0efc624a84652f92631f9fc, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: SagSola
     m_Mirror: 0
-  m_BlendParameter: SagSola
-  m_BlendParameterY: IleriGeri
+  m_BlendParameter: sagsola
+  m_BlendParameterY: ilerigeri
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -40,13 +40,13 @@ AnimatorController:
   m_Name: BombAnimator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: SagSola
+  - m_Name: ilerigeri
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: IleriGeri
+  - m_Name: sagsola
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -76,7 +76,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 5321075068753777000}
-    m_Position: {x: 383.94458, y: 104.06378, z: 0}
+    m_Position: {x: 390, y: 100, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
