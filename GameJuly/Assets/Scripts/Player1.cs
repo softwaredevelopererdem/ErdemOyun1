@@ -17,6 +17,7 @@ public class Player1 : MonoBehaviour
 
     public GameObject newPlatform;
     public GameObject health;
+   
    // public GameObject mobileObstacle;
 
     private DataAsset dataAsset;
@@ -24,23 +25,31 @@ public class Player1 : MonoBehaviour
 
     private Animator animator;
 
-
+    public GameObject bomb;
     private float firstX = 0;
     private float firstZ = 0;
     private float lastX = 0;
     private float lastZ = 0;
     private float differencesFirstLastX = 0;
     private float differencesFirstLastZ = 0;
-    private bool isNotMove = false;
+    private bool isNotMove = false;  
+    private MeshRenderer bombRenderer;
+    private GameObject myMeshController;
+    private SkinnedMeshRenderer myMesh;
+    private bool isDead = false; 
+
     void Start()
     {
 
         cc = GetComponent<CharacterController>();
         dataAsset = GameObject.FindGameObjectWithTag("DataAsset").GetComponent<DataAsset>();
         animator=GetComponent<Animator>();
+        myMeshController = GameObject.FindWithTag("Renderer");
+        myMesh = myMeshController.GetComponent<SkinnedMeshRenderer>();
+        
 
 
-      
+
     }
 
     // Update is called once per frame
@@ -50,13 +59,17 @@ public class Player1 : MonoBehaviour
         x = Input.GetAxis("Horizontal");
         z = Input.GetAxis("Vertical");
         //cc.Move(new Vector3(x, falingDric.y, z) * Time.deltaTime * 15);
-        cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
+        
 
         //faling
         falingDric.y += Physics.gravity.y * Time.deltaTime / 10;
         cc.Move(falingDric * Time.deltaTime);
 
         //jumping
+        if (isDead == false)
+        {
+            cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
+        }
 
        
         
@@ -129,17 +142,26 @@ public class Player1 : MonoBehaviour
         } 
         if (other.gameObject.tag == "MobileObstacle")
         {
-           
-            Destroy(gameObject);
+            isDead = true;
+            bomb.SetActive(true);
+            myMesh.enabled = false;
 
-          //  Destroy(dataAsset.healthsList[dataAsset.healthsList.Count - 1].gameObject);
-          //  dataAsset.healthsList.RemoveAt(dataAsset.healthsList.Count - 1);
-          // cc.center += new Vector3(0, 1, 0);
-          //  cc.Move(Vector3.down * 2);
+
+           
+
+
+            //  Destroy(dataAsset.healthsList[dataAsset.healthsList.Count - 1].gameObject);
+            //  dataAsset.healthsList.RemoveAt(dataAsset.healthsList.Count - 1);
+            // cc.center += new Vector3(0, 1, 0);
+            //  cc.Move(Vector3.down * 2);
 
         }
      
               
+    }
+    void gameObjectOut()
+    {
+        Destroy(gameObject);
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -153,7 +175,7 @@ public class Player1 : MonoBehaviour
             if (cc.isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
                 hit.gameObject.GetComponent<Collider>().enabled=false;
-                falingDric.y += Mathf.Sqrt(0.01f * -3.0f * Physics.gravity.y);
+                falingDric.y += Mathf.Sqrt(0.01f * -1.0f * Physics.gravity.y);
                 isNotMove = false;
             }
             

@@ -10,6 +10,8 @@ TagManager:
   - Line
   - Wheel
   - Laser
+  - Bomb
+  - Renderer
   layers:
   - Default
   - TransparentFX

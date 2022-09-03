@@ -367,6 +367,7 @@
 "Assets/AssetStore/SimpleEnviroment/Scripts/BasicAnimator.cs"
 "Assets/AssetStore/SimpleEnviroment/Scripts/SceneManager.cs"
 "Assets/AssetStore/SimpleEnviroment/Scripts/Storage.cs"
+"Assets/Move.cs"
 "Assets/Scripts/CenterRotateObstacle.cs"
 "Assets/Scripts/CloseBackObstacle.cs"
 "Assets/Scripts/CloseForwardObstacle.cs"

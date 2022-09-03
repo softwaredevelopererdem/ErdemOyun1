@@ -17,7 +17,7 @@ public class Player2 : MonoBehaviour
 
     public GameObject newPlatform;
     public GameObject health;
-    // public GameObject mobileObstacle;
+   // public GameObject mobileObstacle;
 
     private DataAsset dataAsset;
     public float speed;
@@ -32,37 +32,41 @@ public class Player2 : MonoBehaviour
     private float differencesFirstLastX = 0;
     private float differencesFirstLastZ = 0;
     private bool isNearLaser = false;
+    private bool isDead = false;
     void Start()
     {
 
         cc = GetComponent<CharacterController>();
         dataAsset = GameObject.FindGameObjectWithTag("DataAsset").GetComponent<DataAsset>();
-        animator = GetComponent<Animator>();
-
+        animator=GetComponent<Animator>();
 
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
         x = Input.GetAxis("Horizontal");
         z = Input.GetAxis("Vertical");
         //cc.Move(new Vector3(x, falingDric.y, z) * Time.deltaTime * 15);
-        cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
+        if (isDead == false)
+        {
+            cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
+        }
+        
 
         //faling
         falingDric.y += Physics.gravity.y * Time.deltaTime / 10;
         cc.Move(falingDric * Time.deltaTime);
 
+        //jumping
 
+       
+        
 
+        
 
-
-
-
-
+       
 
         if (cc.isGrounded && falingDric.y < 0)
         {
@@ -79,18 +83,34 @@ public class Player2 : MonoBehaviour
         differencesFirstLastZ = lastZ - firstZ;
         firstZ = transform.position.z;
 
-
         if (cc.isGrounded && isNearLaser == false)
         {
-            animator.SetFloat("SagSol", 0);
-            animator.SetFloat("IleriGeri", 1);
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                animator.SetFloat("x", -1);
+                animator.SetFloat("y", 1);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                animator.SetFloat("x", 1);
+                animator.SetFloat("y", 1);
+            }
+            else
+            {
+                animator.SetFloat("x", 0);
+                animator.SetFloat("y", 1);
+            }
+            
         }
 
-   
 
+      
 
+       
+         
 
-
+      
 
     }
     private void OnTriggerEnter(Collider other)
@@ -101,58 +121,50 @@ public class Player2 : MonoBehaviour
 
             Instantiate(newPlatform, new Vector3(0, 0, other.gameObject.transform.parent.position.z + 480), Quaternion.identity);
 
-            /*   if (dataAsset.healthsList.Count < 3)
-               {
-                   Instantiate(health, new Vector3(transform.position.x, 1, transform.position.z + 50), Quaternion.identity);
-
-               }
-            */
-            //   Instantiate(mobileObstacle, new Vector3(transform.position.x, 1, transform.position.z + Random.Range(20, 60)), Quaternion.identity);
-            //  Instantiate(mobileObstacle, new Vector3(transform.position.x, 1, transform.position.z + Random.Range(20, 60)), Quaternion.identity);
-            //  Instantiate(mobileObstacle, new Vector3(transform.position.x, 1, transform.position.z + Random.Range(20, 60)), Quaternion.identity);
-
-            // other.gameObject.SetActive(false);
-            // dataAsset.oneInFive -= 1;
+        
 
         }
         if (other.gameObject.tag == "Line")
         {
-            other.gameObject.GetComponent<CapsuleCollider>().enabled = false;
-            // other.gameObject.GetComponent<Renderer>().material.color = Color.blue;
-        }
+            other.gameObject.GetComponent<CapsuleCollider>().enabled=false;
+           // other.gameObject.GetComponent<Renderer>().material.color = Color.blue;
+        } 
         if (other.gameObject.tag == "MobileObstacle")
         {
+            isDead = true;
+            other.gameObject.GetComponent<BoxCollider>().enabled = false;
+            animator.SetTrigger("Die");
+            Invoke("DestroyThisGameObject", 3.67f);
+           
+            //Invoke("DestroyThisGameObject" ,0.5f) ;
 
-            Destroy(gameObject);
 
-            //  Destroy(dataAsset.healthsList[dataAsset.healthsList.Count - 1].gameObject);
-            //  dataAsset.healthsList.RemoveAt(dataAsset.healthsList.Count - 1);
-            // cc.center += new Vector3(0, 1, 0);
-            //  cc.Move(Vector3.down * 2);
+
 
         }
-
-
+     
+              
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        animator.SetFloat("SagSol", 0);
-        animator.SetFloat("IleriGeri", 0);
+      
         if (hit.gameObject.tag == "Laser")
-        {
+        {   
+            animator.SetFloat("x", 0);
+            animator.SetFloat("x", 0);
             isNearLaser = true;
             if (cc.isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
-                hit.gameObject.GetComponent<Collider>().enabled = false;
                 animator.SetTrigger("Jump");
-                falingDric.y += Mathf.Sqrt(0.01f * -3.0f * Physics.gravity.y);
-                isNearLaser = false;
-
+                hit.gameObject.GetComponent<Collider>().enabled=false;
+                falingDric.y += Mathf.Sqrt(0.01f * -1.0f * Physics.gravity.y);  
+                isNearLaser=false;
+               
 
             }
-
-
+            
+           
         }
     }
 
@@ -166,4 +178,9 @@ public class Player2 : MonoBehaviour
           }
       }
     */
+
+    void DestroyThisGameObject()
+    {
+        Destroy(gameObject);
+    }
 }
