@@ -32,14 +32,14 @@ public class Player2 : MonoBehaviour
     private float differencesFirstLastX = 0;
     private float differencesFirstLastZ = 0;
     private bool isNearLaser = false;
+    private bool isDead = false;
+
     void Start()
     {
 
         cc = GetComponent<CharacterController>();
         dataAsset = GameObject.FindGameObjectWithTag("DataAsset").GetComponent<DataAsset>();
         animator = GetComponent<Animator>();
-        animator.SetFloat("X", 1);
-        animator.SetFloat("Y", 1);
 
 
     }
@@ -51,11 +51,15 @@ public class Player2 : MonoBehaviour
         x = Input.GetAxis("Horizontal");
         z = Input.GetAxis("Vertical");
         //cc.Move(new Vector3(x, falingDric.y, z) * Time.deltaTime * 15);
-        cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
-
+        
         //faling
         falingDric.y += Physics.gravity.y * Time.deltaTime / 10;
-        cc.Move(falingDric * Time.deltaTime);
+         cc.Move(falingDric * Time.deltaTime);
+        if (isDead == false)
+        {
+           cc.Move(new Vector3(x, falingDric.y, speed) * Time.deltaTime * 15);
+        }
+        
 
         //jumping
 
@@ -83,12 +87,12 @@ public class Player2 : MonoBehaviour
 
 
 
-        if (!cc.isGrounded)
+        /*if (!cc.isGrounded)
         {
             animator.SetFloat("X", 0);
             animator.SetFloat("Y", 0);
 
-        }
+        }*/
 
 
         if (cc.isGrounded && isNearLaser == false)
@@ -132,9 +136,10 @@ public class Player2 : MonoBehaviour
         }
         if (other.gameObject.tag == "MobileObstacle")
         {
-            speed = 0;
             animator.SetTrigger("Die");
             other.gameObject.GetComponent<BoxCollider>().enabled=false;
+            isDead = true;
+          
 
             //Invoke("DestroyThisGameObject" ,0.5f) ;
 
@@ -156,10 +161,11 @@ public class Player2 : MonoBehaviour
             isNearLaser = true;
             if (cc.isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
+                isNearLaser = false;
                 animator.SetTrigger("Jump");
                 hit.gameObject.GetComponent<Collider>().enabled = false;
-                falingDric.y += Mathf.Sqrt(0.01f * -3.0f * Physics.gravity.y);
-                isNearLaser = false;
+                falingDric.y += Mathf.Sqrt(0.01f * -1.0f * Physics.gravity.y);
+
 
 
             }
@@ -182,5 +188,10 @@ public class Player2 : MonoBehaviour
     void DestroyThisGameObject()
     {
         Destroy(gameObject);
+    }
+    public void Player2Move()
+    {
+        animator.SetFloat("X", 0);
+        animator.SetFloat("Y", 1);
     }
 }
