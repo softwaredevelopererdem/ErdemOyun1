@@ -189,9 +189,5 @@ public class Player2 : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    public void Player2Move()
-    {
-        animator.SetFloat("X", 0);
-        animator.SetFloat("Y", 1);
-    }
+    
 }
