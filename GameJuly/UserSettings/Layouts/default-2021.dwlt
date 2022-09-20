@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 479.2
     width: 882.4
     height: 243.59998
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 133
+  controlID: 114
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 150
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 22
+  controlID: 151
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 33
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -602,13 +602,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.23250866, y: 0.7004972, z: -0.26217347, w: -0.62245303}
+    m_Target: {x: 0.23527484, y: -0.1356352, z: 0.0322629, w: 0.96238697}
     speed: 2
-    m_Value: {x: -0.23239954, y: 0.70016843, z: -0.26205042, w: -0.6221609}
+    m_Value: {x: 0.23515956, y: -0.13556874, z: 0.032247093, w: 0.96191543}
   m_Size:
-    m_Target: 2.79368
+    m_Target: 2.803407
     speed: 2
-    m_Value: 2.79368
+    m_Value: 2.803407
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -664,9 +664,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bc5f0000
-      m_LastClickedID: 24508
-      m_ExpandedIDs: eafaffff7c5f0000e2600000
+      m_SelectedIDs: 68f4feff
+      m_LastClickedID: -68504
+      m_ExpandedIDs: d400fffffe01ffff5805ffff8206ffff0a1effffeafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -731,22 +731,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Player6 Animations
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animations/Player6 Animations
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\Erdem\\Desktop\\MyG\u0131tHubProject\\ErdemOyun1\\GameJuly"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d0130200
-    m_LastClickedID: 136144
-    m_ExpandedIDs: 00000000b8740000ba740000bc740000be740000c0740000c2740000c4740000c6740000c8740000ca740000cc740000ce740000d0740000d2740000d4740000d6740000d8740000da740000dc740000a4750000a675000038e2010000ca9a3b
+    m_SelectedIDs: 7e780000
+    m_LastClickedID: 30846
+    m_ExpandedIDs: 000000007e78000080780000827800008478000086780000887800008a7800008c7800008e78000090780000927800009478000096780000987800009a7800009c7800009e780000a0780000a2780000a4780000a6780000d6c80000f2c8000000c9000070cb0000066a0100c2a9010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -774,7 +774,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 46faffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b8740000ba740000bc740000be740000c0740000c2740000c4740000c6740000c8740000ca740000cc740000ce740000d0740000d2740000d4740000d6740000d8740000da740000dc740000
+    m_ExpandedIDs: 000000007e78000080780000827800008478000086780000887800008a7800008c7800008e78000090780000927800009478000096780000987800009a7800009c7800009e780000a0780000a2780000a4780000a6780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -802,21 +802,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000056410100f4b60100c8b90100747a00007e7e000052d60000dc770000f4770000ea7700007888010000000000800a01008c0a0100740a010002540100e80101006202010054800100707b000054f20100cef601002e7e000062fb000040c30100d4130200
+    m_ExpandedInstanceIDs: c623000056410100f4b60100c8b90100747a00007e7e000052d60000dc770000f4770000ea7700007888010000000000800a01008c0a0100740a010002540100e80101006202010054800100707b000054f20100cef601002e7e000062fb000040c30100d41302003eb7010062b7010026b70100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Player6Anim
-      m_OriginalName: Player6Anim
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -176976
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -967,6 +967,8 @@ MonoBehaviour:
     - {fileID: 5610588476760575311, guid: e90c80e3a7cd4984fa705f3ea19e794b, type: 2}
     - {fileID: -5047722720269103762, guid: f1610bd7c0e6eae41b0e7fca106778e5, type: 2}
     - {fileID: -8907469161051682226, guid: f1610bd7c0e6eae41b0e7fca106778e5, type: 2}
+    - {fileID: 7351656608901660663, guid: f6f875fa8ebb45e4b9883163ea351ce0, type: 2}
+    - {fileID: -2269291152919484008, guid: f6f875fa8ebb45e4b9883163ea351ce0, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.44937432
       e01: 0
@@ -1016,14 +1018,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.75073683
+    - e00: 0.73726314
       e01: 0
       e02: 0
-      e03: -22.536835
+      e03: -21.86316
       e10: 0
-      e11: 0.75073683
+      e11: 0.73726314
       e12: 0
-      e13: 135.8429
+      e13: 135.98816
       e20: 0
       e21: 0
       e22: 1
@@ -1048,14 +1050,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.75073683
+    - e00: 0.73726314
       e01: 0
       e02: 0
-      e03: -22.536835
+      e03: -21.86316
       e10: 0
-      e11: 0.75073683
+      e11: 0.73726314
       e12: 0
-      e13: 181.7238
+      e13: 135.98816
       e20: 0
       e21: 0
       e22: 1
@@ -1176,14 +1178,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7225
+    - e00: 0.73726314
       e01: 0
       e02: 0
-      e03: 34.10395
+      e03: -21.86316
       e10: 0
-      e11: 0.7225
+      e11: 0.73726314
       e12: 0
-      e13: 207.116
+      e13: 183.79579
       e20: 0
       e21: 0
       e22: 1
@@ -1208,12 +1210,42 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.73726314
+      e01: 0
+      e02: 0
+      e03: -21.86316
+      e10: 0
+      e11: 0.73726314
+      e12: 0
+      e13: 169.05054
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 265.19998
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 174.6
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: f1610bd7c0e6eae41b0e7fca106778e5, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: f6f875fa8ebb45e4b9883163ea351ce0, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -5047722720269103762, guid: f1610bd7c0e6eae41b0e7fca106778e5, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  - m_Target: {fileID: -8907469161051682226, guid: f1610bd7c0e6eae41b0e7fca106778e5, type: 2}
+  - m_Target: {fileID: 7351656608901660663, guid: f6f875fa8ebb45e4b9883163ea351ce0, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1223,7 +1255,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &19
